@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<div>
+		<ul id="listID">
+			<li class="listItem">ONE</li>
+			<li class="listItem">TWO</li>
+			<li class="listItem">THREE</li>
+			<li class="listItem">FOUR</li>
+			<li class="listItem">FIVE</li>
+			<li class="listItem">SIX</li>
+		</ul>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	
+	var listA = document.getElementsByClassName('listItem');
+
+	for(i = 0; i < 4; i++){
+
+	listA[i].style.color = 'red';
+
+	};
+
+</script>
+</body>
+</html>
